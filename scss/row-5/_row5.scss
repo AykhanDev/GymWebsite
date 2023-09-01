@@ -1,0 +1,43 @@
+.row-5{
+    margin-top: 8vh;
+    background-image: url(/imgs/hero2.jpg);
+    height: 45vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .container{
+        background-color: #00000065;
+        height: 45vh;
+        display: flex;
+        justify-content: center;
+        .content{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            h2{
+                font-size: 50px;
+                color: #fff;
+                
+            }
+            h4{
+                color: rgb(161, 161, 161);
+                font-size: 30px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+            button{
+                color: #fff;
+                background: transparent;
+                border: 2px solid $mainClr;
+                font-size: 20px;
+                padding: 10px;
+                transition: 200ms;
+                cursor: pointer;
+            }
+            button:hover{
+                background-color: $mainClr;
+            }
+        }
+    }
+}

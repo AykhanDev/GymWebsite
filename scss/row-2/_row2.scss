@@ -1,0 +1,41 @@
+.row-2{
+    background-image: url(/imgs/hero1.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    div.container{
+        display: flex;
+        flex-direction: column;
+        width: 60vh;
+        transform: translate(50%,100%);
+        span.span1{
+            color: #fff;
+            padding-bottom: 20px;
+            font-size: 25px;
+            font-family: sans-serif;
+        }
+        h1{
+            color: #fff;
+            font-size: 80px;
+            span{
+                color: $mainClr;
+            }
+        }
+        button{
+            color: #fff;
+            background-color: $mainClr;
+            font-size: 18px;
+            padding: 20px;
+            width: 140px;
+            margin-top: 10px;
+            border: none;
+            transition: 300ms;
+            cursor: pointer;
+        }
+        button:hover{
+            color: $mainClr;
+            background-color: #ffffff;
+        }
+    }
+}

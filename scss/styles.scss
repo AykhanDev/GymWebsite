@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=Oswald:wght@700&display=swap');
+
+@import "vars/vars";
+@import "row-1/row1";
+@import "row-2/row2";
+@import "row-3/row3";
+@import "row-4/row4";
+@import "row-5/row5";
+@import "row-6/row6";
+@import "row-7/row7";
+@import "row-8/row8";
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald';
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: $bgClr;
+}
+a{
+    cursor: pointer;
+}

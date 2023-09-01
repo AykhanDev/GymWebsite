@@ -1,0 +1,421 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=Oswald:wght@700&display=swap");
+.row-1 {
+  display: flex;
+  height: 90px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(45, 43, 43, 0.4196078431);
+  z-index: 10;
+  top: 0;
+  position: fixed;
+}
+.row-1 .logo {
+  margin: 20px;
+}
+.row-1 .list {
+  display: flex;
+}
+.row-1 .list ul {
+  display: flex;
+  flex-direction: row;
+}
+.row-1 .list ul li {
+  margin: 30px;
+}
+.row-1 .list ul li a {
+  color: #fff;
+  transition: 300ms;
+}
+.row-1 .list ul li a:hover {
+  color: #F36100;
+}
+.row-1 .list ul li a.home {
+  color: #F36100;
+}
+.row-1 .social-links {
+  display: flex;
+  align-items: center;
+}
+.row-1 .social-links ul {
+  display: flex;
+  transform: translateX(-20px);
+}
+.row-1 .social-links ul li a {
+  margin: 10px;
+}
+.row-1 .social-links ul li a i {
+  color: #fff;
+}
+
+.row-2 {
+  background-image: url(/imgs/hero1.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-2 div.container {
+  display: flex;
+  flex-direction: column;
+  width: 60vh;
+  transform: translate(50%, 100%);
+}
+.row-2 div.container span.span1 {
+  color: #fff;
+  padding-bottom: 20px;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+.row-2 div.container h1 {
+  color: #fff;
+  font-size: 80px;
+}
+.row-2 div.container h1 span {
+  color: #F36100;
+}
+.row-2 div.container button {
+  color: #fff;
+  background-color: #F36100;
+  font-size: 18px;
+  padding: 20px;
+  width: 140px;
+  margin-top: 10px;
+  border: none;
+  transition: 300ms;
+  cursor: pointer;
+}
+.row-2 div.container button:hover {
+  color: #F36100;
+  background-color: #ffffff;
+}
+
+.row-3 {
+  height: 60vh;
+  padding-top: 50px;
+  background-color: #0A0A0A;
+  display: flex;
+  justify-content: center;
+}
+.row-3 .container {
+  width: 140vh;
+}
+.row-3 .container .sec1 {
+  margin-bottom: 50px;
+}
+.row-3 .container .sec1 .container span {
+  color: #F36100;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+.row-3 .container .sec1 .container h3 {
+  color: #fff;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+}
+.row-3 .container .sec2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.row-3 .container .sec2 article {
+  height: 800px;
+  width: 270px;
+  justify-content: center;
+}
+.row-3 .container .sec2 article:hover i {
+  color: #fff;
+  background-color: #F36100;
+}
+.row-3 .container .sec2 h4 {
+  color: #fff;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+}
+.row-3 .container .sec2 p {
+  color: #565454;
+  width: 300px;
+  padding: 10px;
+}
+.row-3 .container .sec2 span {
+  display: flex;
+  justify-content: center;
+}
+.row-3 .container .sec2 span i {
+  color: #F36100;
+  background-color: #151515;
+  font-size: 45px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 50px;
+  transition: 300ms;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row-4 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.row-4 .big-container div.header {
+  display: flex;
+  justify-content: center;
+}
+.row-4 .big-container div.header section.header {
+  flex-direction: column;
+}
+.row-4 .big-container div.header section.header span {
+  color: #F36100;
+  font-size: 30px;
+}
+.row-4 .big-container div.header section.header h3 {
+  color: #fff;
+  font-size: 40px;
+}
+.row-4 .big-container .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.row-4 .big-container .container article {
+  height: 370px;
+  width: 570px;
+  margin: 40px;
+}
+.row-4 .big-container .container article span {
+  color: #F36100;
+  background-color: rgba(45, 44, 44, 0.462745098);
+  font-size: 30px;
+  margin-left: 10px;
+}
+.row-4 .big-container .container article h4 {
+  color: #fff;
+  background-color: rgba(45, 44, 44, 0.462745098);
+  font-size: 30px;
+  width: 210px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.row-4 .big-container .container article:nth-child(1) {
+  background-image: url(/imgs/img1.jpg);
+}
+.row-4 .big-container .container article:nth-child(2) {
+  background-image: url(/imgs/img2.jpg);
+}
+
+.row-5 {
+  margin-top: 8vh;
+  background-image: url(/imgs/hero2.jpg);
+  height: 45vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-5 .container {
+  background-color: rgba(0, 0, 0, 0.3960784314);
+  height: 45vh;
+  display: flex;
+  justify-content: center;
+}
+.row-5 .container .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.row-5 .container .content h2 {
+  font-size: 50px;
+  color: #fff;
+}
+.row-5 .container .content h4 {
+  color: rgb(161, 161, 161);
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.row-5 .container .content button {
+  color: #fff;
+  background: transparent;
+  border: 2px solid #F36100;
+  font-size: 20px;
+  padding: 10px;
+  transition: 200ms;
+  cursor: pointer;
+}
+.row-5 .container .content button:hover {
+  background-color: #F36100;
+}
+
+.row-6 {
+  margin-top: 10vh;
+  margin-bottom: 20vh;
+}
+.row-6 .container #header {
+  display: flex;
+  justify-content: center;
+}
+.row-6 .container #header .header-cont span {
+  display: flex;
+  justify-content: center;
+  color: #F36100;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+.row-6 .container #header .header-cont h3 {
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+.row-6 .container section.arts {
+  display: flex;
+  justify-content: center;
+}
+.row-6 .container section.arts article {
+  margin: 20px;
+  transition: 300ms;
+  padding: 20px;
+  width: 300px;
+  height: 520px;
+  border: 1px solid #414141;
+}
+.row-6 .container section.arts article h3 {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+.row-6 .container section.arts article h2 {
+  display: flex;
+  justify-content: center;
+  color: #F36100;
+  font-size: 70px;
+}
+.row-6 .container section.arts article span {
+  display: flex;
+  justify-content: center;
+  color: #5b5b5b;
+  margin: 10px;
+  font-size: 20px;
+}
+.row-6 .container section.arts article ul li {
+  color: #8c8c8c;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.row-6 .container section.arts article button {
+  width: 80%;
+  height: 50px;
+  font-size: 20px;
+  background-color: rgb(51, 51, 51);
+  color: #fff;
+  border: none;
+  margin: 10px;
+  transform: translateX(35px);
+  cursor: pointer;
+}
+.row-6 .container section.arts article:hover {
+  background-color: #fff;
+}
+.row-6 .container section.arts article:hover h3 {
+  color: #000;
+}
+.row-6 .container section.arts article:hover li {
+  color: #121212;
+}
+.row-6 .container section.arts article:hover span {
+  color: #121212;
+}
+.row-6 .container section.arts article:hover button {
+  background-color: #F36100;
+}
+
+.row-7 {
+  background-color: rgba(0, 0, 0, 0.2588235294);
+  flex-direction: row;
+}
+.row-7 .container {
+  display: flex;
+  justify-content: center;
+}
+.row-7 .container section {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.row-7 .container section i {
+  background-color: #F36100;
+  color: #fff;
+  padding: 5px;
+  font-size: 30px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row-7 .container section span {
+  color: #fff;
+  font-size: 20px;
+  padding: 20px;
+}
+
+footer.row-8 {
+  background-color: #0e0e0e;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer.row-8 div.container {
+  display: flex;
+}
+footer.row-8 div.container section {
+  margin: 40px;
+}
+footer.row-8 div.container section p {
+  color: #717171;
+  margin: 10px;
+}
+footer.row-8 div.container section h3 {
+  color: #fff;
+}
+footer.row-8 div.container section ul li {
+  color: #717171;
+  margin: 5px;
+}
+footer.row-8 div.container section ul li a {
+  color: #717171;
+}
+footer.row-8 div.container article p.p1 {
+  border-bottom: 1px solid #717171;
+  padding: 15px;
+}
+footer.row-8 div.container article p {
+  padding: 10px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Oswald";
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #151515;
+}
+
+a {
+  cursor: pointer;
+}/*# sourceMappingURL=styles.css.map */
